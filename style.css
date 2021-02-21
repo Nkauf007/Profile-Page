@@ -138,7 +138,8 @@
 
 .project1Image {grid-column:2/3; background-color: ;display: flex;
     justify-content:center;
-    align-items: center; }
+    align-items: center;
+     }
 
 .project2Image {grid-column:2/3; background-color: ;display: flex;
     justify-content:center;
