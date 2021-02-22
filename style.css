@@ -215,9 +215,38 @@ margin-top: 10px;
 
 
 
+    .dlResume{
+        grid-row: 3/4;
+        background-color: #000000; /* Green */
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+
+      .sendEmail{
+        grid-row: 4/5;
+        background-color: #000000; /* Green */
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
 
 
 
+      .footer { margin:25px; 
+        padding:25px;   
+        height: auto; width: auto;
+       background-color: #000000;
+       content: #ffffff;
+        } 
 
     
 
@@ -262,10 +291,11 @@ margin-top: 10px;
     
 
 
-.project1Image {grid-column:1/2; background-color: ;display: flex;
+.project1Image {grid-column:1/2; background-color:black ;display: flex;
         justify-content:center;
         align-items: center; 
-        order: 1;}
+        order: 1;
+    height: 100%;}
 
 .project2Image {grid-column:1/2; background-color: ;display: flex;
         justify-content:flex-start;
@@ -296,6 +326,10 @@ margin-top: 10px;
 
 
 }
+
+
+.footer {background-color: #000000;}
+
 
 
 
