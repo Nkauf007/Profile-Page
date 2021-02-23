@@ -205,21 +205,14 @@ margin-top: 10px;
     
     .resume {grid-row: 3/4;}
 
-    .email {grid-row: 4/5;}
-
-    .socialLower1  {grid-row: 5/6;}
-
-    .socialLower2 {grid-row: 6/7;}
-
-    .socialLower3 {grid-row: 7/8;}
 
 
 
     .dlResume{
         grid-row: 3/4;
-        background-color: #000000; /* Green */
+        
         border: none;
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;
@@ -227,11 +220,10 @@ margin-top: 10px;
         font-size: 16px;
       }
 
-      .sendEmail{
+      .SendEmail{
         grid-row: 4/5;
-        background-color: #000000; /* Green */
-        border: none;
-        color: rgb(255, 255, 255);
+        border: black solid;
+        color: rgb(0, 0, 0);
         padding: 15px 32px;
         text-align: center;
         text-decoration: none;

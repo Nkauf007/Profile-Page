@@ -110,4 +110,9 @@ $(function(){  // $(document).ready shorthand
       
   });
 
-  
+  sendEmail(message); {
+    var email = message.emailId;
+    var subject = message.subject;
+    var emailBody = 'Hi '+message.from;
+    document.location = "mailto:noahwkaufmann@gmail.com"+email+"?subject="+subject+"&body="+emailBody;
+}
